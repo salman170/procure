@@ -1,5 +1,6 @@
+
 import About from "./components/About";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Frequently from "./components/Frequently";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -18,10 +19,10 @@ function App() {
       <Frequently/>
       <Services/>
       <Track/>
-      <Inventory/>
+      {/* <Inventory/> */}
       <HowItWorks/>
       <Proposel/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
