@@ -1,4 +1,3 @@
-
 import About from "./components/About";
 // import Footer from "./components/Footer";
 import Frequently from "./components/Frequently";
@@ -13,15 +12,16 @@ import Track from "./components/Track";
 function App() {
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Frequently/>
-      <Services/>
-      <Track/>
+      <Header />
+      <Hero />
+      <About />
+      <Frequently />
+      <Services />
+      <Track />
       {/* <Inventory/> */}
-      <HowItWorks/>
-      <Proposel/>
+      <HowItWorks />
+
+      <Proposel />
       {/* <Footer/> */}
     </div>
   );
