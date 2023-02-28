@@ -3,7 +3,7 @@ import logo from "../assets/procuren-logo-white.png";
 const Header = () => {
   return (
     <div>
-      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      {/* <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
@@ -83,7 +83,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
       <header className="text-white body-font bg-indigo-800 ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a

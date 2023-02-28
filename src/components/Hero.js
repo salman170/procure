@@ -1,5 +1,5 @@
 import React from "react";
-import { BiCaretLeftCircle } from "react-icons/bi";
+// import { BiCaretLeftCircle } from "react-icons/bi";
 import heroImag from "../assets/heroImag.png";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
               <button className="inline-flex text-white bg-indigo-500 hover:bg-gradient-to-b from-purple-500 to-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
                 Get Started
               </button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 rounded-full border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 rounded-full border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 text-lg">
                 Watch Video
               </button>
             </div>
