@@ -3,8 +3,9 @@ import React from "react";
 const HowItWorks = () => {
   return (
     <div>
+            How it works
       <section className="text-gray-600 body-font">
-       
+ 
         <div className="flex relative pb-12">
           <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
