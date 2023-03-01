@@ -1,13 +1,13 @@
 import React from "react";
-
 const Login = () => {
   return (
-    <div class="h-screen bg-indigo-100 flex justify-center items-center">
+    <div class="h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-center items-center">
       <div class="lg:w-2/5 md:w-1/2 w-2/3">
-        <form class="bg-white p-10 rounded-2xl shadow-lg min-w-full">
+        <form class="bg-indigo-100 p-10 rounded-2xl shadow-lg min-w-full">
           <h1 class="bg-gradient-to-tl from-blue-600 to-pink-500 text-transparent bg-clip-text text-center text-2xl mb-2   duration-500 font-bold font-sans">
             Welcome
           </h1>
+
           <hr class="border-2 rounded-full border-indigo-500  hover:border-red-500 duration-500" />
           <div>
             <label
@@ -55,6 +55,7 @@ const Login = () => {
 
           Don't have an account? Sign up
           </p>
+          
         </form>
       </div>
     </div>

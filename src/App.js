@@ -1,14 +1,15 @@
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Frequently from "./components/Frequently";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import HowItWorks from "./components/HowItWorks";
-import Login from "./components/Login";
+import About from './components/About';
+import Footer from './components/Footer';
+import Frequently from './components/Frequently';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import HowItWorks from './components/HowItWorks';
+import Login from './components/Login';
 // import Inventory from "./components/Inventory";
-import Proposel from "./components/Proposel";
-import Services from "./components/Services";
-import Track from "./components/Track";
+import Proposel from './components/Proposel';
+import Services from './components/Services';
+import SignUp from './components/SignUp';
+import Track from './components/Track';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       {/* <Inventory/> */}
       <HowItWorks />
       <Proposel />
-      <Footer/>
-<Login/>
+      <Footer />
+      <Login />
+      <SignUp />
     </div>
   );
 }
