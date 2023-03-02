@@ -24,7 +24,7 @@ const Proposel = () => {
               frameborder="0"
               title="map"
               marginheight="0"
-              marginwidth="0"
+              marginidth="0"
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.25176871577!2d78.40804555!3d17.4123487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1677584260081!5m2!1sen!2sin"
               style={{ filter: { grayscale: 1, contrast: 1.2, opacity: 0.4 } }}
@@ -117,7 +117,7 @@ const Proposel = () => {
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none  hover:bg-indigo-600  text-lg hover:bg-gradient-to-b from-purple-500 to-pink-500 hover:text-white shadow-lg shadow-indigo-500/50 rounded text-lg">
+            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none  hover:bg-indigo-600  text-lg hover:bg-gradient-to-b from-purple-500 to-pink-500 hover:text-white shadow-lg shadow-indigo-500/50 rounded ">
               Button
             </button>
             <p className="text-xs text-gray-500 mt-3">
