@@ -2,7 +2,7 @@ import React from "react";
 
 const Proposel = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="container px-5 pt-24 mx-auto">
         <div className="flex flex-col text-center w-full ">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-[#492dd5e6] uppercase">

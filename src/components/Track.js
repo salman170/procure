@@ -2,7 +2,7 @@ import React from "react";
 
 const Track = () => {
   return (
-    <div className="bg-indigo-400">
+    <div className="bg-indigo-400" id="trackorder">
       <section className="text-white body-font">
         <div className="container px-0 py-24 mx-auto">
           <div className="lg:w-2/3 flex flex-col justify-between sm:flex-row sm:items-center items-start mx-auto">
