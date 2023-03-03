@@ -88,9 +88,11 @@ const Services = () => {
               </div>
             </div>
             <div className='p-4 xl:w-1/4 md:w-1/2 w-full '>
-              <div className='h-full p-6 rounded-lg border-2 border-gray-300 hover:border-indigo-500 flex flex-col overflow-hidden shadow-lg shadow-indigo-500/50'>
+            <div className='h-full p-6 rounded-lg border-2 border-gray-300 hover:border-indigo-500 flex flex-col overflow-hidden shadow-lg shadow-indigo-500/50'>
                 <h1 className='text-3xl  text-purple-800 pb-4 mb-4 py-10 px-1 border-b border-[#492dd5e6] border-gray-200 leading-none rounded-md bg-gray-100'>
                   Tracking Mechanism
+                  <br />
+                  <br />
                 </h1>
                 <div className='flex flex-col justify-between h-full'>
                   <div>

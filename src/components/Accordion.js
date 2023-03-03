@@ -29,14 +29,14 @@ function Accordion() {
   };
 
   return (
-    <div className="divide-y divide-gray-200 bg-purple-50 rounded-xl">
+    <div className="divide-y divide-gray-200 bg-indigo-300 rounded-xl">
       {items.map((item, index) => (
         <div key={index} className="py-4 px-4">
           <div
             className="flex items-center justify-between cursor-pointer  bg-gray-200 rounded-xl p-2"
             onClick={() => handleItemClick(index)}
           >
-            <h2 className="text-lg  m-2">{item.title}</h2>
+            <h2 className="text-lg m-1 lg:m-2">{item.title}</h2>
             <svg
               className={`w-5 h-5 ${
                 activeIndex === index ? "transform rotate-180" : ""
