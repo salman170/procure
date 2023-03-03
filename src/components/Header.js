@@ -41,7 +41,7 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:gap-x-10">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-white hover:text-yellow-500">
+              <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-white hover:text-yellow-500">
                 {item.name}
               </a>
             ))}
@@ -49,7 +49,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button
             type="button"
-            className="text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2.5 py-1.5 text-center  flex items-center"
+            className="text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center"
           >
             Login
             <svg
@@ -75,11 +75,11 @@ export default function Example() {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className=" rounded-md p-2.5 text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
-                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                <XMarkIcon className="h-8 w-8" aria-hidden="true" />
               </button>
             </div>
             <div className="mt-6 flow-root">

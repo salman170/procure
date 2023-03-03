@@ -17,11 +17,11 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Frequently />
       <Services />
       <Track />
       {/* <Inventory/> */}
       <HowItWorks />
+      <Frequently />
       <Proposel />
       <Footer />
       <Login />
