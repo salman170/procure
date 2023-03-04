@@ -4,7 +4,7 @@ import Accordion from './Accordion';
 const Frequently = () => {
   return (
     <div>
-      <section className='text-gray-600 body-font'>
+      <section className=' body-font px-2'>
         <div className='container py-24 mx-auto flex flex-wrap'>
           <h2 className='title-font sm:text-4xl text-3xl mb-4  text-[#ae3989] uppercase '>
             Frequently Asked Questions
@@ -16,11 +16,13 @@ const Frequently = () => {
             info@procuren.com.
           </p>
           <div className='grid  grid-cols-1 md:grid-cols-3'>
-            <div className='grid grid-cols-1 md:col-span-2' >
+            <div className='grid grid-cols-1 md:col-span-2 lg:h-8'>
               <Accordion />
             </div>
-            <div  className='flex'>
-              <img src={faq} alt='FAQs' />
+            <div className='flex items-center  lg:-mt-10'>
+              <div >
+                <img src={faq} alt='FAQs' />
+              </div>
             </div>
           </div>
         </div>

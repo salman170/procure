@@ -17,7 +17,7 @@ export default function Example() {
   return (
     <div className="isolate  bg-indigo-800 fixed   w-full px-1 py-1 ">
      
-      <div className="px-6  lg:px-8">
+      <div className="px-6  lg:px-8 z-50">
         <nav className="flex items-center py-4 justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
             <a
