@@ -1,104 +1,130 @@
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import {Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-import logo from "../assets/procuren-logo-white.png";
+import { useState } from 'react';
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import logo from '../assets/procuren-logo-white.png';
+import { Link } from 'react-scroll';
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#about' },
-  { name: 'Services', href: '#service' },
-  { name: 'Track Order', href: '#trackorder' },
-  { name: 'Contact', href: '#contact' },
-]
+  { name: 'Home', href: 'hero' },
+  { name: 'About', href: 'about' },
+  { name: 'Services', href: 'service' },
+  { name: 'Track Order', href: 'trackorder' },
+  { name: 'Contact', href: 'contact' },
+];
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="isolate  bg-indigo-800 fixed   w-full px-1 py-1 ">
-     
-      <div className="px-6  lg:px-8 z-50">
-        <nav className="flex items-center py-4 justify-between" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a
-            className="flex title-font font-medium items-center text-gray-900 "
-            href="/"
-          >
-            <span className=" text-xl">
-              <img src={logo} alt="logo" className="h-12" />
-            </span>
-          </a>
+    <div className='isolate  bg-indigo-800 fixed z-10 w-full px-1 py-1 '>
+      <div className='px-6  lg:px-8 '>
+        <nav
+          className='flex items-center py-4 justify-between'
+          aria-label='Global'
+        >
+          <div className='flex lg:flex-1'>
+            <Link
+              className='flex title-font font-medium items-center text-gray-900 '
+              to='hero'
+              spy={true}
+              smooth={true}
+              duration={500} 
+            >
+              <span className=' text-xl'>
+                <img src={logo} alt='logo' className='h-12' />
+              </span>
+            </Link>
           </div>
-          <div className="flex lg:hidden">
+          <div className='flex lg:hidden'>
             <button
-              type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              type='button'
+              className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
               onClick={() => setMobileMenuOpen(true)}
             >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6 bg-white border-1 rounded-md" aria-hidden="true" />
+              <span className='sr-only'>Open main menu</span>
+              <Bars3Icon
+                className='h-6 w-6 bg-white border-1 rounded-md'
+                aria-hidden='true'
+              />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-10">
+          <div className='hidden lg:flex lg:gap-x-10 cursor-pointer'>
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-white hover:text-yellow-500">
+              <Link
+                key={item.name}
+                to={item.href}
+                className='text-lg font-semibold leading-6 text-white hover:text-yellow-500'
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={400}
+              >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button
-            type="button"
-            className="text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center"
-          >
-            Login
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
+          <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
+            <button
+              type='button'
+              className='text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center'
             >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+              Login
+              <svg
+                fill='none'
+                stroke='currentColor'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                className='w-4 h-4 ml-1'
+                viewBox='0 0 24 24'
+              >
+                <path d='M5 12h14M12 5l7 7-7 7'></path>
+              </svg>
+            </button>
           </div>
         </nav>
-        <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-          <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
-            <div className="flex items-center justify-between">
-              <a href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+        <Dialog as='div' open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <Dialog.Panel className='fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden'>
+            <div className='flex items-center justify-between'>
+              <a href='/' className='-m-1.5 p-1.5'>
+                <span className='sr-only'>Your Company</span>
+                <img
+                  className='h-8'
+                  src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+                  alt=''
+                />
               </a>
               <button
-                type="button"
-                className=" rounded-md p-2.5 text-gray-700"
+                type='button'
+                className=' rounded-md p-2.5 text-gray-700'
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <span className="sr-only">Close menu</span>
-                <XMarkIcon className="h-8 w-8" aria-hidden="true" />
+                <span className='sr-only'>Close menu</span>
+                <XMarkIcon className='h-8 w-8' aria-hidden='true' />
               </button>
             </div>
-            <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
+            <div className='mt-6 flow-root'>
+              <div className='-my-6 divide-y divide-gray-500/10'>
+                <div className='space-y-2 py-6'>
                   {navigation.map((item) => (
-                    <a
+                    <Link
+                      onClick={() => setMobileMenuOpen(false)}
                       key={item.name}
-                      href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                      to={item.href}
+                      className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={400}
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
-                <div className="py-6">
+                <div className='py-6'>
                   <a
-                    href="/"
-                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                    href='/'
+                    className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10'
                   >
                     Log in
                   </a>
@@ -213,7 +239,10 @@ export default function Example() {
             </svg>
           </div>
         </div>
+        <Link key={item.name} to={item.href} spy={true} smooth={true} className="text-lg font-semibold leading-6 text-white hover:text-yellow-500">
+                    {item.name}
+                  </Link>
     </main>*/}
     </div>
-  )
+  );
 }

@@ -4,7 +4,7 @@ import heroImag from '../assets/heroImag.png';
 
 const Hero = () => {
   return (
-    <div>
+    <div id='hero'>
       <section className='text-gray-600 body-font bg-indigo-800 h-screen'>
         <div className='container mx-auto flex px-5  h-full  md:flex-row  flex-col items-center justify-center '>
           <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col   '>

@@ -1,3 +1,5 @@
+// import {  BrowserRouter as Router,  Routes,  Route,} from "react-router-dom";
+
 import About from './components/About';
 import Footer from './components/Footer';
 import Frequently from './components/Frequently';
@@ -11,9 +13,12 @@ import Services from './components/Services';
 import SignUp from './components/SignUp';
 import Track from './components/Track';
 
+
+
 function App() {
   return (
-    <div>
+    <div >
+
       <Header />
       <Hero />
       <About />

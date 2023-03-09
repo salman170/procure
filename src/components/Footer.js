@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-gray-600 body-font">
+      <footer className="text-white body-font bg-indigo-300">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 " href="/">
@@ -21,19 +21,19 @@ const Footer = () => {
               </svg>
               <span className="ml-3 text-xl">Tailblocks</span>
             </a>
-            <p className="mt-2 text-sm text-gray-500">
+            <p className="mt-2 text-sm text-black">
               Air plant banjo lyft occupy retro adaptogen indego
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-md underline underline-offset-8 mb-3">
                 Useful Links
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Home
@@ -41,7 +41,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     About us
@@ -49,7 +49,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Services
@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Terms of service
@@ -65,7 +65,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Privacy policy
@@ -73,7 +73,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Inventory Management
@@ -82,48 +82,45 @@ const Footer = () => {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-md underline underline-offset-8 mb-3">
                 Our Services
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
-                    {" "}
-                    Supply Raw Materials{" "}
+                    Supply Raw Materials
                   </a>
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
-                    {" "}
-                    Purchase Raw Maerials{" "}
+                    Purchase Raw Maerials
                   </a>
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
-                    {" "}
-                    Purchase Order Finacncing{" "}
+                    Purchase Order Finacncing
                   </a>
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
-                    Order Tracking Mechanism{" "}
+                    Order Tracking Mechanism
                   </a>
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     Sales Management
@@ -131,7 +128,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
                     href="/about"
                   >
                     ERP Dashboard
@@ -147,7 +144,7 @@ const Footer = () => {
                 <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                   <label
                     for="footer-field"
-                    className="leading-7 text-sm text-gray-600"
+                    className="leading-7 text-sm text-black"
                   >
                     Placeholder
                   </label>
@@ -162,7 +159,7 @@ const Footer = () => {
                   Button
                 </button>
               </div>
-              <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
+              <p className="text-black text-sm mt-2 md:text-left text-center">
                 Bitters chicharrones fanny pack
                 <br className="lg:block hidden" />
                 waistcoat green juice
