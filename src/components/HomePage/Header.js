@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import logo from '../assets/procuren-logo-white.png';
+import logo from '../../assets/procuren-logo-white.png';
 import { Link } from 'react-scroll';
+
 
 const navigation = [
   { name: 'Home', href: 'hero' },
@@ -12,7 +13,7 @@ const navigation = [
   { name: 'Contact', href: 'contact' },
 ];
 
-export default function Example() {
+export default function Headers() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -28,7 +29,7 @@ export default function Example() {
               to='hero'
               spy={true}
               smooth={true}
-              duration={500} 
+              duration={500}
             >
               <span className=' text-xl'>
                 <img src={logo} alt='logo' className='h-12' />
@@ -64,6 +65,7 @@ export default function Example() {
             ))}
           </div>
           <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
+            <Link to="/login">Login</Link>
             <button
               type='button'
               className='text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center'
@@ -72,9 +74,9 @@ export default function Example() {
               <svg
                 fill='none'
                 stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
                 className='w-4 h-4 ml-1'
                 viewBox='0 0 24 24'
               >
@@ -169,9 +171,9 @@ export default function Example() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="w-4 h-4 ml-1"
               viewBox="0 0 24 24"
             >

@@ -41,9 +41,9 @@ const Services = () => {
                       <svg
                         fill='none'
                         stroke='currentColor'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
                         className='w-4 h-4 ml-auto'
                         viewBox='0 0 24 24'
                       >
@@ -74,9 +74,9 @@ const Services = () => {
                       <svg
                         fill='none'
                         stroke='currentColor'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
                         className='w-4 h-4 ml-auto'
                         viewBox='0 0 24 24'
                       >
@@ -88,7 +88,7 @@ const Services = () => {
               </div>
             </div>
             <div className='p-4 xl:w-1/4 md:w-1/2 w-full '>
-            <div className='h-full p-6 rounded-lg border-2 border-gray-300 hover:border-indigo-500 flex flex-col overflow-hidden shadow-lg shadow-indigo-500/50'>
+              <div className='h-full p-6 rounded-lg border-2 border-gray-300 hover:border-indigo-500 flex flex-col overflow-hidden shadow-lg shadow-indigo-500/50'>
                 <h1 className='text-3xl  text-purple-800 pb-4 mb-4 py-10 px-1 border-b border-[#492dd5e6] border-gray-200 leading-none rounded-md bg-gray-100'>
                   Tracking Mechanism
                   <br />
@@ -110,9 +110,9 @@ const Services = () => {
                       <svg
                         fill='none'
                         stroke='currentColor'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
                         className='w-4 h-4 ml-auto'
                         viewBox='0 0 24 24'
                       >
@@ -144,9 +144,9 @@ const Services = () => {
                       <svg
                         fill='none'
                         stroke='currentColor'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2'
                         className='w-4 h-4 ml-auto'
                         viewBox='0 0 24 24'
                       >
@@ -177,9 +177,9 @@ const Services = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2.5"
                       className="w-3 h-3"
                       viewBox="0 0 24 24"
                     >
@@ -193,9 +193,9 @@ const Services = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2.5"
                       className="w-3 h-3"
                       viewBox="0 0 24 24"
                     >
@@ -209,9 +209,9 @@ const Services = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2.5"
                       className="w-3 h-3"
                       viewBox="0 0 24 24"
                     >
@@ -225,9 +225,9 @@ const Services = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2.5"
                       className="w-3 h-3"
                       viewBox="0 0 24 24"
                     >
@@ -241,9 +241,9 @@ const Services = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-auto"
                     viewBox="0 0 24 24"
                   >

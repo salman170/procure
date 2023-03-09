@@ -1,5 +1,5 @@
 import React from 'react';
-import faq from '../assets/faq.png';
+import faq from '../../assets/faq.png';
 import Accordion from './Accordion';
 const Frequently = () => {
   return (

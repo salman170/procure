@@ -1,6 +1,6 @@
 import React from 'react';
 // import { BiCaretLeftCircle } from "react-icons/bi";
-import heroImag from '../assets/heroImag.png';
+import heroImag from '../../assets/heroImag.png';
 
 const Hero = () => {
   return (
