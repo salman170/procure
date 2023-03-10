@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LoginPage from '../assets/Login.jpg';
 
 const Login = () => {
@@ -42,7 +43,7 @@ const Login = () => {
             />
           </div>
           <button
-            type='submit'
+           
             class='w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 mb-4 text-lg text-white tracking-wide font-semibold font-sans'
           >
             Login
@@ -53,7 +54,7 @@ const Login = () => {
           >
             Login
           </button> */}
-          <p className='text-center'>Don't have an account ?<a href="/signin" className="bg-gradient-to-tl from-blue-600 to-pink-500 text-transparent bg-clip-text text-center text-xl mb-2   duration-500 font-bold font-sans" onclick="ValidateEmail(document.form1.text1)"> Sign up</a> </p>
+          <p className='text-center'>Don't have an account ?<Link to="/signin" className="bg-gradient-to-tl from-blue-600 to-pink-500 text-transparent bg-clip-text text-center text-xl mb-2   duration-500 font-bold font-sans" onclick="ValidateEmail(document.form1.text1)"> Sign up</Link> </p>
         </form>
       </div>
     </div>
