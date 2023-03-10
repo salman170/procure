@@ -65,8 +65,7 @@ export default function Headers() {
             ))}
           </div>
           <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-            <Link to="/login">Login</Link>
-            <button
+            <a target={'_blank'} href='login'> <button
               type='button'
               className='text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center'
             >
@@ -82,7 +81,8 @@ export default function Headers() {
               >
                 <path d='M5 12h14M12 5l7 7-7 7'></path>
               </svg>
-            </button>
+            </button></a>
+           
           </div>
         </nav>
         <Dialog as='div' open={mobileMenuOpen} onClose={setMobileMenuOpen}>

@@ -14,7 +14,6 @@ function App() {
         <Route exact path="/signin" element={<SignUp />} />
         </Routes>
       </Router>
-      <Main />
     </div>
   );
 }

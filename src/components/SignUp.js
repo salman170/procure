@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LoginBack from '../assets/LoginBack.jpg';
 
 const SignUp = () => {
@@ -1441,10 +1442,8 @@ const SignUp = () => {
             Register
           </button>
           <button
-            type='submit'
             className='w-full mt-6 mb-3 rounded-lg px-4 py-2 text-lg text-gray-800 tracking-wide font-semibold font-sans'
-          >
-            Login
+          ><Link to="/login" className="bg-gradient-to-tl from-blue-600 to-pink-500 text-transparent bg-clip-text text-center w-full mt-6 mb-3 rounded-lg px-4 py-2 text-lg   duration-500  font-semibold font-sans" onclick="ValidateEmail(document.form1.text1)"> Login</Link>
           </button>
         </form>
       </div>
