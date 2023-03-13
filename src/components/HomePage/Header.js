@@ -4,7 +4,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logo from '../../assets/procuren-logo-white.png';
 import { Link } from 'react-scroll';
 
-
 const navigation = [
   { name: 'Home', href: 'hero' },
   { name: 'About', href: 'about' },
@@ -65,7 +64,9 @@ export default function Headers() {
             ))}
           </div>
           <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-            <a target={'_blank'} href='login'> <button
+            <a 
+            // target={'_blank'}
+             href='login'> <button
               type='button'
               className='text-white hover:bg-gradient-to-b from-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-lg px-2.5 py-1.5 text-center  flex items-center'
             >
@@ -125,7 +126,8 @@ export default function Headers() {
                 </div>
                 <div className='py-6'>
                   <a
-                    target={'_blank'} href='login'
+                    // target={'_blank'}
+                     href='login'
                     className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10'
                   >
                     Log in
